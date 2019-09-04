@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TimeCat-Plugin-module-color-reference.iml" filepath="$PROJECT_DIR$/TimeCat-Plugin-module-color-reference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-main-lib/plugin-main-lib.iml" filepath="$PROJECT_DIR$/plugin-main-lib/plugin-main-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-normal-apk/plugin-normal-apk.iml" filepath="$PROJECT_DIR$/plugin-normal-apk/plugin-normal-apk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-shadow-apk/plugin-shadow-apk.iml" filepath="$PROJECT_DIR$/plugin-shadow-apk/plugin-shadow-apk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-loader/sample-loader.iml" filepath="$PROJECT_DIR$/sample-loader/sample-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-runtime/sample-runtime.iml" filepath="$PROJECT_DIR$/sample-runtime/sample-runtime.iml" />
+    </modules>
+  </component>
+</project>

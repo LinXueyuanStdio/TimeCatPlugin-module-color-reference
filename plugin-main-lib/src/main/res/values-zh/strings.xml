@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MD配色参考</string>
+
+    <string name="dlg_title_about">关于</string>
+    <string name="dlg_title_help">帮助</string>
+    <string name="dlg_bt_ok">确定</string>
+    <string name="dlg_bt_got_it">我知道了</string>
+    <string name="dlg_bt_rate_me">&#x2605;评分</string>
+
+    <string name="menu_notification">测试通知</string>
+    <string name="menu_reset">重置主题</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_lucky">幸运色</string>
+
+    <string name="toast_tap_again_details">再次触摸该项以查看详情</string>
+    <string name="toast_copied">已复制到剪切板：%1$s</string>
+    <string name="toast_tap_card_to_copy">触摸颜色卡片以复制</string>
+    <string name="toast_reset">已重置为默认主题</string>
+    <string name="toast_lucky_color">幸运色：%1$s</string>
+
+    <string name="help_desc">"如果还没有为您的App琢磨好配色，那么可以尝试从 Material Design 调色板中选择一套。
+\n建议：
+\n色调 <u>500</u> 用作基本色（colorPrimary）、<u>700</u> 用作基本色深色（colorPrimaryDark）、<u>A200</u> 或 <u>A400</u> 用作强调色（colorAccent）。"</string>
+
+    <string name="light_theme">亮色</string>
+    <string name="dark_theme">暗色</string>
+    <string name="theme">主题：</string>
+    <string name="checkbox">复选框</string>
+    <string name="button">按钮</string>
+    <string name="board">UI面板</string>
+    <string name="notify_title">MD配色参考</string>
+    <string name="notify_content">通知测试</string>
+
+</resources>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PluginAppTheme" parent="@style/PluginAppThemeDark" />
+
+    <style name="PluginAppThemeDark" parent="@android:style/Theme.Material">
+        <item name="ic_action_notification">@drawable/ic_action_notification_dark</item>
+        <item name="ic_action_help">@drawable/ic_action_help_dark</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+    </style>
+
+    <style name="PluginAppThemeLight" parent="@android:style/Theme.Material.Light">
+        <item name="ic_action_notification">@drawable/ic_action_notification_light</item>
+        <item name="ic_action_help">@drawable/ic_action_help_light</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_black</item>
+    </style>
+
+    <style name="PluginAppThemeLightD" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="ic_action_notification">@drawable/ic_action_notification_dark</item>
+        <item name="ic_action_help">@drawable/ic_action_help_dark</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_black</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Red">
+        <item name="android:colorPrimary">@color/primary_color_red</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_red_dark</item>
+        <item name="android:colorAccent">@color/accent_color_red</item>
+        <item name="android:navigationBarColor">@color/primary_color_red_dark</item>
+        <item name="colorPrimary">@color/primary_color_red</item>
+        <item name="colorPrimaryDark">@color/primary_color_red_dark</item>
+        <item name="colorAccent">@color/accent_color_red</item>
+        <item name="android:colorButtonNormal">@color/accent_color_red</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Red">
+        <item name="android:colorPrimary">@color/primary_color_red</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_red_dark</item>
+        <item name="android:colorAccent">@color/accent_color_red</item>
+        <item name="android:navigationBarColor">@color/primary_color_red_dark</item>
+        <item name="colorPrimary">@color/primary_color_red</item>
+        <item name="colorPrimaryDark">@color/primary_color_red_dark</item>
+        <item name="colorAccent">@color/accent_color_red</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_red</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Red">
+        <item name="android:colorPrimary">@color/primary_color_red</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_red_dark</item>
+        <item name="android:colorAccent">@color/accent_color_red</item>
+        <item name="android:navigationBarColor">@color/primary_color_red_dark</item>
+        <item name="colorPrimary">@color/primary_color_red</item>
+        <item name="colorPrimaryDark">@color/primary_color_red_dark</item>
+        <item name="colorAccent">@color/accent_color_red</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_red</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Pink">
+        <item name="android:colorPrimary">@color/primary_color_pink</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_pink_dark</item>
+        <item name="android:colorAccent">@color/accent_color_pink</item>
+        <item name="android:navigationBarColor">@color/primary_color_pink_dark</item>
+        <item name="colorPrimary">@color/primary_color_pink</item>
+        <item name="colorPrimaryDark">@color/primary_color_pink_dark</item>
+        <item name="colorAccent">@color/accent_color_pink</item>
+        <item name="android:colorButtonNormal">@color/accent_color_pink</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Pink">
+        <item name="android:colorPrimary">@color/primary_color_pink</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_pink_dark</item>
+        <item name="android:colorAccent">@color/accent_color_pink</item>
+        <item name="android:navigationBarColor">@color/primary_color_pink_dark</item>
+        <item name="colorPrimary">@color/primary_color_pink</item>
+        <item name="colorPrimaryDark">@color/primary_color_pink_dark</item>
+        <item name="colorAccent">@color/accent_color_pink</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_pink</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Pink">
+        <item name="android:colorPrimary">@color/primary_color_pink</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_pink_dark</item>
+        <item name="android:colorAccent">@color/accent_color_pink</item>
+        <item name="android:navigationBarColor">@color/primary_color_pink_dark</item>
+        <item name="colorPrimary">@color/primary_color_pink</item>
+        <item name="colorPrimaryDark">@color/primary_color_pink_dark</item>
+        <item name="colorAccent">@color/accent_color_pink</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_pink</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Purple">
+        <item name="android:colorPrimary">@color/primary_color_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_purple_dark</item>
+        <item name="android:colorAccent">@color/accent_color_purple</item>
+        <item name="android:navigationBarColor">@color/primary_color_purple_dark</item>
+        <item name="colorPrimary">@color/primary_color_purple</item>
+        <item name="colorPrimaryDark">@color/primary_color_purple_dark</item>
+        <item name="colorAccent">@color/accent_color_purple</item>
+        <item name="android:colorButtonNormal">@color/accent_color_purple</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Purple">
+        <item name="android:colorPrimary">@color/primary_color_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_purple_dark</item>
+        <item name="android:colorAccent">@color/accent_color_purple</item>
+        <item name="android:navigationBarColor">@color/primary_color_purple_dark</item>
+        <item name="colorPrimary">@color/primary_color_purple</item>
+        <item name="colorPrimaryDark">@color/primary_color_purple_dark</item>
+        <item name="colorAccent">@color/accent_color_purple</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_purple</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Purple">
+        <item name="android:colorPrimary">@color/primary_color_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_purple_dark</item>
+        <item name="android:colorAccent">@color/accent_color_purple</item>
+        <item name="android:navigationBarColor">@color/primary_color_purple_dark</item>
+        <item name="colorPrimary">@color/primary_color_purple</item>
+        <item name="colorPrimaryDark">@color/primary_color_purple_dark</item>
+        <item name="colorAccent">@color/accent_color_purple</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_purple</item>
+    </style>
+
+    <style name="PluginAppThemeDark.DeepPurple">
+        <item name="android:colorPrimary">@color/primary_color_deep_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_deep_purple_dark</item>
+        <item name="android:colorAccent">@color/accent_color_deep_purple</item>
+        <item name="android:navigationBarColor">@color/primary_color_deep_purple_dark</item>
+        <item name="colorPrimary">@color/primary_color_deep_purple</item>
+        <item name="colorPrimaryDark">@color/primary_color_deep_purple_dark</item>
+        <item name="colorAccent">@color/accent_color_deep_purple</item>
+        <item name="android:colorButtonNormal">@color/accent_color_deep_purple</item>
+    </style>
+
+    <style name="PluginAppThemeLight.DeepPurple">
+        <item name="android:colorPrimary">@color/primary_color_deep_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_deep_purple_dark</item>
+        <item name="android:colorAccent">@color/accent_color_deep_purple</item>
+        <item name="android:navigationBarColor">@color/primary_color_deep_purple_dark</item>
+        <item name="colorPrimary">@color/primary_color_deep_purple</item>
+        <item name="colorPrimaryDark">@color/primary_color_deep_purple_dark</item>
+        <item name="colorAccent">@color/accent_color_deep_purple</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_deep_purple</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.DeepPurple">
+        <item name="android:colorPrimary">@color/primary_color_deep_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_deep_purple_dark</item>
+        <item name="android:colorAccent">@color/accent_color_deep_purple</item>
+        <item name="android:navigationBarColor">@color/primary_color_deep_purple_dark</item>
+        <item name="colorPrimary">@color/primary_color_deep_purple</item>
+        <item name="colorPrimaryDark">@color/primary_color_deep_purple_dark</item>
+        <item name="colorAccent">@color/accent_color_deep_purple</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_deep_purple</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Indigo">
+        <item name="android:colorPrimary">@color/primary_color_indigo</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_indigo_dark</item>
+        <item name="android:colorAccent">@color/accent_color_indigo</item>
+        <item name="android:navigationBarColor">@color/primary_color_indigo_dark</item>
+        <item name="colorPrimary">@color/primary_color_indigo</item>
+        <item name="colorPrimaryDark">@color/primary_color_indigo_dark</item>
+        <item name="colorAccent">@color/accent_color_indigo</item>
+        <item name="android:colorButtonNormal">@color/accent_color_indigo</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Indigo">
+        <item name="android:colorPrimary">@color/primary_color_indigo</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_indigo_dark</item>
+        <item name="android:colorAccent">@color/accent_color_indigo</item>
+        <item name="android:navigationBarColor">@color/primary_color_indigo_dark</item>
+        <item name="colorPrimary">@color/primary_color_indigo</item>
+        <item name="colorPrimaryDark">@color/primary_color_indigo_dark</item>
+        <item name="colorAccent">@color/accent_color_indigo</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_indigo</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Indigo">
+        <item name="android:colorPrimary">@color/primary_color_indigo</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_indigo_dark</item>
+        <item name="android:colorAccent">@color/accent_color_indigo</item>
+        <item name="android:navigationBarColor">@color/primary_color_indigo_dark</item>
+        <item name="colorPrimary">@color/primary_color_indigo</item>
+        <item name="colorPrimaryDark">@color/primary_color_indigo_dark</item>
+        <item name="colorAccent">@color/accent_color_indigo</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_indigo</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Blue">
+        <item name="android:colorPrimary">@color/primary_color_blue</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_blue_dark</item>
+        <item name="android:colorAccent">@color/accent_color_blue</item>
+        <item name="android:navigationBarColor">@color/primary_color_blue_dark</item>
+        <item name="colorPrimary">@color/primary_color_blue</item>
+        <item name="colorPrimaryDark">@color/primary_color_blue_dark</item>
+        <item name="colorAccent">@color/accent_color_blue</item>
+        <item name="android:colorButtonNormal">@color/accent_color_blue</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Blue">
+        <item name="android:colorPrimary">@color/primary_color_blue</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_blue_dark</item>
+        <item name="android:colorAccent">@color/accent_color_blue</item>
+        <item name="android:navigationBarColor">@color/primary_color_blue_dark</item>
+        <item name="colorPrimary">@color/primary_color_blue</item>
+        <item name="colorPrimaryDark">@color/primary_color_blue_dark</item>
+        <item name="colorAccent">@color/accent_color_blue</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_blue</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Blue">
+        <item name="android:colorPrimary">@color/primary_color_blue</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_blue_dark</item>
+        <item name="android:colorAccent">@color/accent_color_blue</item>
+        <item name="android:navigationBarColor">@color/primary_color_blue_dark</item>
+        <item name="colorPrimary">@color/primary_color_blue</item>
+        <item name="colorPrimaryDark">@color/primary_color_blue_dark</item>
+        <item name="colorAccent">@color/accent_color_blue</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_blue</item>
+    </style>
+
+    <style name="PluginAppThemeDark.LightBlue">
+        <item name="android:colorPrimary">@color/primary_color_light_blue</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_light_blue_dark</item>
+        <item name="android:colorAccent">@color/accent_color_light_blue</item>
+        <item name="android:navigationBarColor">@color/primary_color_light_blue_dark</item>
+        <item name="colorPrimary">@color/primary_color_light_blue</item>
+        <item name="colorPrimaryDark">@color/primary_color_light_blue_dark</item>
+        <item name="colorAccent">@color/accent_color_light_blue</item>
+        <item name="android:colorButtonNormal">@color/accent_color_light_blue</item>
+    </style>
+
+    <style name="PluginAppThemeLight.LightBlue">
+        <item name="android:colorPrimary">@color/primary_color_light_blue</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_light_blue_dark</item>
+        <item name="android:colorAccent">@color/accent_color_light_blue</item>
+        <item name="android:navigationBarColor">@color/primary_color_light_blue_dark</item>
+        <item name="colorPrimary">@color/primary_color_light_blue</item>
+        <item name="colorPrimaryDark">@color/primary_color_light_blue_dark</item>
+        <item name="colorAccent">@color/accent_color_light_blue</item>
+        <item name="android:colorButtonNormal">@color/accent_color_light_blue</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.LightBlue">
+        <item name="android:colorPrimary">@color/primary_color_light_blue</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_light_blue_dark</item>
+        <item name="android:colorAccent">@color/accent_color_light_blue</item>
+        <item name="android:navigationBarColor">@color/primary_color_light_blue_dark</item>
+        <item name="colorPrimary">@color/primary_color_light_blue</item>
+        <item name="colorPrimaryDark">@color/primary_color_light_blue_dark</item>
+        <item name="colorAccent">@color/accent_color_light_blue</item>
+        <item name="android:colorButtonNormal">@color/accent_color_light_blue</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Cyan">
+        <item name="android:colorPrimary">@color/primary_color_cyan</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_cyan_dark</item>
+        <item name="android:colorAccent">@color/accent_color_cyan</item>
+        <item name="android:navigationBarColor">@color/primary_color_cyan_dark</item>
+        <item name="colorPrimary">@color/primary_color_cyan</item>
+        <item name="colorPrimaryDark">@color/primary_color_cyan_dark</item>
+        <item name="colorAccent">@color/accent_color_cyan</item>
+        <item name="android:colorButtonNormal">@color/accent_color_cyan</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Cyan">
+        <item name="android:colorPrimary">@color/primary_color_cyan</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_cyan_dark</item>
+        <item name="android:colorAccent">@color/accent_color_cyan</item>
+        <item name="android:navigationBarColor">@color/primary_color_cyan_dark</item>
+        <item name="colorPrimary">@color/primary_color_cyan</item>
+        <item name="colorPrimaryDark">@color/primary_color_cyan_dark</item>
+        <item name="colorAccent">@color/accent_color_cyan</item>
+        <item name="android:colorButtonNormal">@color/accent_color_cyan</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Cyan">
+        <item name="android:colorPrimary">@color/primary_color_cyan</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_cyan_dark</item>
+        <item name="android:colorAccent">@color/accent_color_cyan</item>
+        <item name="android:navigationBarColor">@color/primary_color_cyan_dark</item>
+        <item name="colorPrimary">@color/primary_color_cyan</item>
+        <item name="colorPrimaryDark">@color/primary_color_cyan_dark</item>
+        <item name="colorAccent">@color/accent_color_cyan</item>
+        <item name="android:colorButtonNormal">@color/accent_color_cyan</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Teal">
+        <item name="android:colorPrimary">@color/primary_color_teal</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_teal_dark</item>
+        <item name="android:colorAccent">@color/accent_color_teal</item>
+        <item name="android:navigationBarColor">@color/primary_color_teal_dark</item>
+        <item name="colorPrimary">@color/primary_color_teal</item>
+        <item name="colorPrimaryDark">@color/primary_color_teal_dark</item>
+        <item name="colorAccent">@color/accent_color_teal</item>
+        <item name="android:colorButtonNormal">@color/accent_color_teal</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Teal">
+        <item name="android:colorPrimary">@color/primary_color_teal</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_teal_dark</item>
+        <item name="android:colorAccent">@color/accent_color_teal</item>
+        <item name="android:navigationBarColor">@color/primary_color_teal_dark</item>
+        <item name="colorPrimary">@color/primary_color_teal</item>
+        <item name="colorPrimaryDark">@color/primary_color_teal_dark</item>
+        <item name="colorAccent">@color/accent_color_teal</item>
+        <item name="android:colorButtonNormal">@color/accent_color_teal</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Teal">
+        <item name="android:colorPrimary">@color/primary_color_teal</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_teal_dark</item>
+        <item name="android:colorAccent">@color/accent_color_teal</item>
+        <item name="android:navigationBarColor">@color/primary_color_teal_dark</item>
+        <item name="colorPrimary">@color/primary_color_teal</item>
+        <item name="colorPrimaryDark">@color/primary_color_teal_dark</item>
+        <item name="colorAccent">@color/accent_color_teal</item>
+        <item name="android:colorButtonNormal">@color/accent_color_teal</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Green">
+        <item name="android:colorPrimary">@color/primary_color_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_green_dark</item>
+        <item name="android:colorAccent">@color/accent_color_green</item>
+        <item name="android:navigationBarColor">@color/primary_color_green_dark</item>
+        <item name="colorPrimary">@color/primary_color_green</item>
+        <item name="colorPrimaryDark">@color/primary_color_green_dark</item>
+        <item name="colorAccent">@color/accent_color_green</item>
+        <item name="android:colorButtonNormal">@color/accent_color_green</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Green">
+        <item name="android:colorPrimary">@color/primary_color_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_green_dark</item>
+        <item name="android:colorAccent">@color/accent_color_green</item>
+        <item name="android:navigationBarColor">@color/primary_color_green_dark</item>
+        <item name="colorPrimary">@color/primary_color_green</item>
+        <item name="colorPrimaryDark">@color/primary_color_green_dark</item>
+        <item name="colorAccent">@color/accent_color_green</item>
+        <item name="android:colorButtonNormal">@color/accent_color_green</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Green">
+        <item name="android:colorPrimary">@color/primary_color_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_green_dark</item>
+        <item name="android:colorAccent">@color/accent_color_green</item>
+        <item name="android:navigationBarColor">@color/primary_color_green_dark</item>
+        <item name="colorPrimary">@color/primary_color_green</item>
+        <item name="colorPrimaryDark">@color/primary_color_green_dark</item>
+        <item name="colorAccent">@color/accent_color_green</item>
+        <item name="android:colorButtonNormal">@color/accent_color_green</item>
+    </style>
+
+    <style name="PluginAppThemeDark.LightGreen">
+        <item name="android:colorPrimary">@color/primary_color_light_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_light_green_dark</item>
+        <item name="android:colorAccent">@color/accent_color_light_green</item>
+        <item name="android:navigationBarColor">@color/primary_color_light_green_dark</item>
+        <item name="colorPrimary">@color/primary_color_light_green</item>
+        <item name="colorPrimaryDark">@color/primary_color_light_green_dark</item>
+        <item name="colorAccent">@color/accent_color_light_green</item>
+        <item name="android:colorButtonNormal">@color/accent_color_light_green</item>
+    </style>
+
+    <style name="PluginAppThemeLight.LightGreen">
+        <item name="android:colorPrimary">@color/primary_color_light_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_light_green_dark</item>
+        <item name="android:colorAccent">@color/accent_color_light_green</item>
+        <item name="android:navigationBarColor">@color/primary_color_light_green_dark</item>
+        <item name="colorPrimary">@color/primary_color_light_green</item>
+        <item name="colorPrimaryDark">@color/primary_color_light_green_dark</item>
+        <item name="colorAccent">@color/accent_color_light_green</item>
+        <item name="android:colorButtonNormal">@color/accent_color_light_green</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.LightGreen">
+        <item name="android:colorPrimary">@color/primary_color_light_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_light_green_dark</item>
+        <item name="android:colorAccent">@color/accent_color_light_green</item>
+        <item name="android:navigationBarColor">@color/primary_color_light_green_dark</item>
+        <item name="colorPrimary">@color/primary_color_light_green</item>
+        <item name="colorPrimaryDark">@color/primary_color_light_green_dark</item>
+        <item name="colorAccent">@color/accent_color_light_green</item>
+        <item name="android:colorButtonNormal">@color/accent_color_light_green</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Lime">
+        <item name="android:colorPrimary">@color/primary_color_lime</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_lime_dark</item>
+        <item name="android:colorAccent">@color/accent_color_lime</item>
+        <item name="android:navigationBarColor">@color/primary_color_lime_dark</item>
+        <item name="colorPrimary">@color/primary_color_lime</item>
+        <item name="colorPrimaryDark">@color/primary_color_lime_dark</item>
+        <item name="colorAccent">@color/accent_color_lime</item>
+        <item name="android:colorButtonNormal">@color/accent_color_lime</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Lime">
+        <item name="android:colorPrimary">@color/primary_color_lime</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_lime_dark</item>
+        <item name="android:colorAccent">@color/accent_color_lime</item>
+        <item name="android:navigationBarColor">@color/primary_color_lime_dark</item>
+        <item name="colorPrimary">@color/primary_color_lime</item>
+        <item name="colorPrimaryDark">@color/primary_color_lime_dark</item>
+        <item name="colorAccent">@color/accent_color_lime</item>
+        <item name="android:colorButtonNormal">@color/accent_color_lime</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Lime">
+        <item name="android:colorPrimary">@color/primary_color_lime</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_lime_dark</item>
+        <item name="android:colorAccent">@color/accent_color_lime</item>
+        <item name="android:navigationBarColor">@color/primary_color_lime_dark</item>
+        <item name="colorPrimary">@color/primary_color_lime</item>
+        <item name="colorPrimaryDark">@color/primary_color_lime_dark</item>
+        <item name="colorAccent">@color/accent_color_lime</item>
+        <item name="android:colorButtonNormal">@color/accent_color_lime</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Yellow">
+        <item name="android:colorPrimary">@color/primary_color_yellow</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_yellow_dark</item>
+        <item name="android:colorAccent">@color/accent_color_yellow</item>
+        <item name="android:navigationBarColor">@color/primary_color_yellow_dark</item>
+        <item name="colorPrimary">@color/primary_color_yellow</item>
+        <item name="colorPrimaryDark">@color/primary_color_yellow_dark</item>
+        <item name="colorAccent">@color/accent_color_yellow</item>
+        <item name="android:colorButtonNormal">@color/accent_color_yellow</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Yellow">
+        <item name="android:colorPrimary">@color/primary_color_yellow</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_yellow_dark</item>
+        <item name="android:colorAccent">@color/accent_color_yellow</item>
+        <item name="android:navigationBarColor">@color/primary_color_yellow_dark</item>
+        <item name="colorPrimary">@color/primary_color_yellow</item>
+        <item name="colorPrimaryDark">@color/primary_color_yellow_dark</item>
+        <item name="colorAccent">@color/accent_color_yellow</item>
+        <item name="android:colorButtonNormal">@color/accent_color_yellow</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Yellow">
+        <item name="android:colorPrimary">@color/primary_color_yellow</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_yellow_dark</item>
+        <item name="android:colorAccent">@color/accent_color_yellow</item>
+        <item name="android:navigationBarColor">@color/primary_color_yellow_dark</item>
+        <item name="colorPrimary">@color/primary_color_yellow</item>
+        <item name="colorPrimaryDark">@color/primary_color_yellow_dark</item>
+        <item name="colorAccent">@color/accent_color_yellow</item>
+        <item name="android:colorButtonNormal">@color/accent_color_yellow</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Amber">
+        <item name="android:colorPrimary">@color/primary_color_amber</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_amber_dark</item>
+        <item name="android:colorAccent">@color/accent_color_amber</item>
+        <item name="android:navigationBarColor">@color/primary_color_amber_dark</item>
+        <item name="colorPrimary">@color/primary_color_amber</item>
+        <item name="colorPrimaryDark">@color/primary_color_amber_dark</item>
+        <item name="colorAccent">@color/accent_color_amber</item>
+        <item name="android:colorButtonNormal">@color/accent_color_amber</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Amber">
+        <item name="android:colorPrimary">@color/primary_color_amber</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_amber_dark</item>
+        <item name="android:colorAccent">@color/accent_color_amber</item>
+        <item name="android:navigationBarColor">@color/primary_color_amber_dark</item>
+        <item name="colorPrimary">@color/primary_color_amber</item>
+        <item name="colorPrimaryDark">@color/primary_color_amber_dark</item>
+        <item name="colorAccent">@color/accent_color_amber</item>
+        <item name="android:colorButtonNormal">@color/accent_color_amber</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Amber">
+        <item name="android:colorPrimary">@color/primary_color_amber</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_amber_dark</item>
+        <item name="android:colorAccent">@color/accent_color_amber</item>
+        <item name="android:navigationBarColor">@color/primary_color_amber_dark</item>
+        <item name="colorPrimary">@color/primary_color_amber</item>
+        <item name="colorPrimaryDark">@color/primary_color_amber_dark</item>
+        <item name="colorAccent">@color/accent_color_amber</item>
+        <item name="android:colorButtonNormal">@color/accent_color_amber</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Orange">
+        <item name="android:colorPrimary">@color/primary_color_orange</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_orange_dark</item>
+        <item name="android:colorAccent">@color/accent_color_orange</item>
+        <item name="android:navigationBarColor">@color/primary_color_orange_dark</item>
+        <item name="colorPrimary">@color/primary_color_orange</item>
+        <item name="colorPrimaryDark">@color/primary_color_orange_dark</item>
+        <item name="colorAccent">@color/accent_color_orange</item>
+        <item name="android:colorButtonNormal">@color/accent_color_orange</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Orange">
+        <item name="android:colorPrimary">@color/primary_color_orange</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_orange_dark</item>
+        <item name="android:colorAccent">@color/accent_color_orange</item>
+        <item name="android:navigationBarColor">@color/primary_color_orange_dark</item>
+        <item name="colorPrimary">@color/primary_color_orange</item>
+        <item name="colorPrimaryDark">@color/primary_color_orange_dark</item>
+        <item name="colorAccent">@color/accent_color_orange</item>
+        <item name="android:colorButtonNormal">@color/accent_color_orange</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Orange">
+        <item name="android:colorPrimary">@color/primary_color_orange</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_orange_dark</item>
+        <item name="android:colorAccent">@color/accent_color_orange</item>
+        <item name="android:navigationBarColor">@color/primary_color_orange_dark</item>
+        <item name="colorPrimary">@color/primary_color_orange</item>
+        <item name="colorPrimaryDark">@color/primary_color_orange_dark</item>
+        <item name="colorAccent">@color/accent_color_orange</item>
+        <item name="android:colorButtonNormal">@color/accent_color_orange</item>
+    </style>
+
+    <style name="PluginAppThemeDark.DeepOrange">
+        <item name="android:colorPrimary">@color/primary_color_deep_orange</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_deep_orange_dark</item>
+        <item name="android:colorAccent">@color/accent_color_deep_orange</item>
+        <item name="android:navigationBarColor">@color/primary_color_deep_orange_dark</item>
+        <item name="colorPrimary">@color/primary_color_deep_orange</item>
+        <item name="colorPrimaryDark">@color/primary_color_deep_orange_dark</item>
+        <item name="colorAccent">@color/accent_color_deep_orange</item>
+        <item name="android:colorButtonNormal">@color/accent_color_deep_orange</item>
+    </style>
+
+    <style name="PluginAppThemeLight.DeepOrange">
+        <item name="android:colorPrimary">@color/primary_color_deep_orange</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_deep_orange_dark</item>
+        <item name="android:colorAccent">@color/accent_color_deep_orange</item>
+        <item name="android:navigationBarColor">@color/primary_color_deep_orange_dark</item>
+        <item name="colorPrimary">@color/primary_color_deep_orange</item>
+        <item name="colorPrimaryDark">@color/primary_color_deep_orange_dark</item>
+        <item name="colorAccent">@color/accent_color_deep_orange</item>
+        <item name="android:colorButtonNormal">@color/accent_color_deep_orange</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.DeepOrange">
+        <item name="android:colorPrimary">@color/primary_color_deep_orange</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_deep_orange_dark</item>
+        <item name="android:colorAccent">@color/accent_color_deep_orange</item>
+        <item name="android:navigationBarColor">@color/primary_color_deep_orange_dark</item>
+        <item name="colorPrimary">@color/primary_color_deep_orange</item>
+        <item name="colorPrimaryDark">@color/primary_color_deep_orange_dark</item>
+        <item name="colorAccent">@color/accent_color_deep_orange</item>
+        <item name="android:colorButtonNormal">@color/accent_color_deep_orange</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Brown">
+        <item name="android:colorPrimary">@color/primary_color_brown</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_brown_dark</item>
+        <item name="android:colorAccent">@color/accent_color_brown</item>
+        <item name="android:navigationBarColor">@color/primary_color_brown_dark</item>
+        <item name="colorPrimary">@color/primary_color_brown</item>
+        <item name="colorPrimaryDark">@color/primary_color_brown_dark</item>
+        <item name="colorAccent">@color/accent_color_brown</item>
+        <item name="android:colorButtonNormal">@color/accent_color_brown</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Brown">
+        <item name="android:colorPrimary">@color/primary_color_brown</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_brown_dark</item>
+        <item name="android:colorAccent">@color/accent_color_brown</item>
+        <item name="android:navigationBarColor">@color/primary_color_brown_dark</item>
+        <item name="colorPrimary">@color/primary_color_brown</item>
+        <item name="colorPrimaryDark">@color/primary_color_brown_dark</item>
+        <item name="colorAccent">@color/accent_color_brown</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_brown</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Brown">
+        <item name="android:colorPrimary">@color/primary_color_brown</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_brown_dark</item>
+        <item name="android:colorAccent">@color/accent_color_brown</item>
+        <item name="android:navigationBarColor">@color/primary_color_brown_dark</item>
+        <item name="colorPrimary">@color/primary_color_brown</item>
+        <item name="colorPrimaryDark">@color/primary_color_brown_dark</item>
+        <item name="colorAccent">@color/accent_color_brown</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_brown</item>
+    </style>
+
+    <style name="PluginAppThemeDark.Grey">
+        <item name="android:colorPrimary">@color/primary_color_grey</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_grey_dark</item>
+        <item name="android:colorAccent">@color/accent_color_grey</item>
+        <item name="android:navigationBarColor">@color/primary_color_grey_dark</item>
+        <item name="colorPrimary">@color/primary_color_grey</item>
+        <item name="colorPrimaryDark">@color/primary_color_grey_dark</item>
+        <item name="colorAccent">@color/accent_color_grey</item>
+        <item name="android:colorButtonNormal">@color/accent_color_grey</item>
+    </style>
+
+    <style name="PluginAppThemeLight.Grey">
+        <item name="android:colorPrimary">@color/primary_color_grey</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_grey_dark</item>
+        <item name="android:colorAccent">@color/accent_color_grey</item>
+        <item name="android:navigationBarColor">@color/primary_color_grey_dark</item>
+        <item name="colorPrimary">@color/primary_color_grey</item>
+        <item name="colorPrimaryDark">@color/primary_color_grey_dark</item>
+        <item name="colorAccent">@color/accent_color_grey</item>
+        <item name="android:colorButtonNormal">@color/accent_color_grey</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.Grey">
+        <item name="android:colorPrimary">@color/primary_color_grey</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_grey_dark</item>
+        <item name="android:colorAccent">@color/accent_color_grey</item>
+        <item name="android:navigationBarColor">@color/primary_color_grey_dark</item>
+        <item name="colorPrimary">@color/primary_color_grey</item>
+        <item name="colorPrimaryDark">@color/primary_color_grey_dark</item>
+        <item name="colorAccent">@color/accent_color_grey</item>
+        <item name="android:colorButtonNormal">@color/accent_color_grey</item>
+    </style>
+
+    <style name="PluginAppThemeDark.BlueGrey">
+        <item name="android:colorPrimary">@color/primary_color_blue_grey</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_blue_grey_dark</item>
+        <item name="android:colorAccent">@color/accent_color_blue_grey</item>
+        <item name="android:navigationBarColor">@color/primary_color_blue_grey_dark</item>
+        <item name="colorPrimary">@color/primary_color_blue_grey</item>
+        <item name="colorPrimaryDark">@color/primary_color_blue_grey_dark</item>
+        <item name="colorAccent">@color/accent_color_blue_grey</item>
+        <item name="android:colorButtonNormal">@color/accent_color_blue_grey</item>
+    </style>
+
+    <style name="PluginAppThemeLight.BlueGrey">
+        <item name="android:colorPrimary">@color/primary_color_blue_grey</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_blue_grey_dark</item>
+        <item name="android:colorAccent">@color/accent_color_blue_grey</item>
+        <item name="android:navigationBarColor">@color/primary_color_blue_grey_dark</item>
+        <item name="colorPrimary">@color/primary_color_blue_grey</item>
+        <item name="colorPrimaryDark">@color/primary_color_blue_grey_dark</item>
+        <item name="colorAccent">@color/accent_color_blue_grey</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_blue_grey</item>
+    </style>
+
+    <style name="PluginAppThemeLightD.BlueGrey">
+        <item name="android:colorPrimary">@color/primary_color_blue_grey</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_blue_grey_dark</item>
+        <item name="android:colorAccent">@color/accent_color_blue_grey</item>
+        <item name="android:navigationBarColor">@color/primary_color_blue_grey_dark</item>
+        <item name="colorPrimary">@color/primary_color_blue_grey</item>
+        <item name="colorPrimaryDark">@color/primary_color_blue_grey_dark</item>
+        <item name="colorAccent">@color/accent_color_blue_grey</item>
+        <item name="floating_color_for_accent">@color/floating_color_for_accent_white</item>
+        <item name="android:colorButtonNormal">@color/accent_color_blue_grey</item>
+    </style>
+
+    <!-- Just for API 21 -->
+    <style name="DialogThemeDark" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+    </style>
+
+    <!-- Just for API 21 -->
+    <style name="DialogThemeLight" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+    </style>
+
+    <!--<style name="Activated" parent="PluginAppThemeDark">
+        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>
+    </style>-->
+
+    <style name="Fab">
+        <item name="android:elevation">@dimen/elevation_low</item>
+        <!--<item name="android:tint">@android:color/white</item>-->
+        <item name="android:tint">?attr/floating_color_for_accent</item>
+        <item name="android:stateListAnimator">@animator/fab_elevation</item>
+        <item name="android:background">@drawable/fab_oval_ripple</item>
+        <item name="android:layout_width">@dimen/fab_diameter</item>
+        <item name="android:layout_height">@dimen/fab_diameter</item>
+    </style>
+
+    <style name="ListItemTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItem</item>
+    </style>
+
+    <style name="ListItemSubtitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSecondary</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+</resources>

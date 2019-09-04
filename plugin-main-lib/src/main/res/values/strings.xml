@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Color Reference</string>
+
+    <string name="dlg_title_about">About</string>
+    <string name="dlg_title_help">Help</string>
+    <string name="dlg_bt_ok">OK</string>
+    <string name="dlg_bt_got_it">Got it</string>
+    <string name="dlg_bt_rate_me">&#x2605; Rate</string>
+
+    <string name="menu_notification">Notification</string>
+    <string name="menu_reset">Reset theme</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_lucky">Lucky</string>
+
+    <string name="toast_tap_again_details">Tap again to view details.</string>
+    <string name="toast_copied">Copied to clipboard: %1$s</string>
+    <string name="toast_tap_card_to_copy">Tap a card to copy.</string>
+    <string name="toast_reset">Reset to default theme.</string>
+    <string name="toast_lucky_color">Lucky color: %1$s</string>
+
+    <!--There are no wrong colors. What matters most is how to use them.-->
+
+    <string name="help_desc">"Apps that don’t have existing color schemes may select colors from the material design color palette.
+\nSuggestions:
+\n<u>500</u> version for primary color, <u>700</u> version for dark primary color and <u>A200</u> (or <u>A400</u>) for accent color."</string>
+    <!--<string name="board_desc">Tap the CONTROL BAR to show/hide the UI BOARD.</string>-->
+
+    <string name="light_theme">Light</string>
+    <string name="dark_theme">Dark</string>
+    <!--<string name="light_with_dark_theme">Light with dark action bar</string>-->
+    <string name="theme">Theme:</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="button">Button</string>
+    <string name="board">UI board</string>
+    <string name="notify_title">Color Reference</string>
+    <string name="notify_content">Notification test.</string>
+
+</resources>
