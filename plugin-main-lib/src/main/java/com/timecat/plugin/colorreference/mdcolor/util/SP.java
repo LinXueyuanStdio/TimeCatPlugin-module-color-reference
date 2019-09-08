@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
  * @author zby
  * @email linxy59@mail2.sysu.edu.cn
  * @date 2019-08-16
- * @discription null
+ * @description null
  * @usage null
  */
 public class SP {
