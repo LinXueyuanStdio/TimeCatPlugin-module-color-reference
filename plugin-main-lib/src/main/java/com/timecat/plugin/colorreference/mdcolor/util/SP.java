@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * @author zby
+ * @author 林学渊
  * @email linxy59@mail2.sysu.edu.cn
  * @date 2019-08-16
  * @description null
